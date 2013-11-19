@@ -5690,7 +5690,7 @@ input {
 }
 #parallax {
   
-  background: url('images/background.png');
+  background: url("images/background.png");
   
 }
 /* ========== FEATURES SECTION ========== */
@@ -5811,6 +5811,7 @@ input {
 }
 #info .info-section-white {
   background-color: white;
+  
 }
 /* Initial state (hidden or anything else) */
 .cbp-so-init .cbp-so-side {
