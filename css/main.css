@@ -5689,10 +5689,25 @@ input {
   line-height: 1.3em;
 }
 #parallax {
-  
-  background: url("images/background.png");
-  
+  height: 672px;
+  width: 100%;
+  position: fixed;
+  background: url('/images/background.png') center center no-repeat;
+  background-size: cover;
+  z-index: -100;
 }
+
+#parallax2 {
+  height: 672px;
+  width: 100%;
+  position: fixed;
+  background: url('/images/background.png') center center no-repeat;
+  background-size: cover;
+  z-index: -100;
+
+	
+}
+
 /* ========== FEATURES SECTION ========== */
 #features {
   background-color: white;
@@ -5720,6 +5735,7 @@ input {
 /* ========== NEWSLETTER SECTION ========== */
 #newsletter {
   background-color: rgba(94,94,94,0.97);
+  background-image: url("/images/background.png");
 }
 #newsletter p.lead {
   color: white;
